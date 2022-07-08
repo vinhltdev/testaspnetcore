@@ -15,7 +15,7 @@ namespace aspnetcoreapp
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        //vinhtlmacos
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
